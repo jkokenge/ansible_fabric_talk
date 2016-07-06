@@ -2,6 +2,8 @@
     <head>
         <link rel="stylesheet" href="css/reveal.css">
         <link rel="stylesheet" href="css/theme/sky.css">
+        <style type="text/css">
+        </style>
     </head>
     <body>
         <div class="reveal">
@@ -14,15 +16,47 @@
                 </section>
                 <section>
                     <h2>DevOps: WTF?!</h2>
-                    <ul style="list-style: none;">
-                        <li class="fragment">
+                        <h4 class="fragment">
                             It's making stuff live.
-                        </li>
-                         <li class="fragment">
+                        </h4>
+                         <h4 class="fragment">
                             "Putting stuff into production."
-                        </li>
+                        </h4>
                     </ul>
                 </section>
+                <section>
+                        <h2>
+                            AWS Elastic Beanstalk
+                        </h2>
+                            <h4 class="fragment">
+                                    Not flexible
+                            </h4>
+                            <h4 class="fragment">
+                                    Expensive
+                            </h4>
+                </section>
+                <section>
+                    <h2>
+                        Chef
+                    </h2>
+                    <h4 class="fragment">
+                                    Worked 'learn Chef' tutorials
+                    </h4>
+                    <h4 class="fragment">
+                                    Got a free tshirt
+                    </h4>
+                    <h4 class="fragment">
+                                    ...Still had no idea what I was doing
+                    </h4>
+                </section>
+                <section>
+                        <a href="http://www.deploypython.com/"><img src="images/full_stack_python_deployment.png"></a>
+                </section>
+                <section>
+                        <a href="http://www.deploypython.com/"><img src="images/full_stack_toc.png"></a>
+                </section>
+                <section>
+                    <a href="http://www.deploypython.com/"><img src="images/full_stack_overview.png"></a>
                 </section>
                 <section><h3>What is Fabric?</h3>
                     <ul style="list-style: none;">
@@ -31,6 +65,13 @@
                     </ul>
                 </section>
                 <section>
+                    <p>pip install fabric</p>
+                     <pre><code>
+                         from fabric.api import run
+                         def host_type():
+                            run('uname -s')
+
+                     </code></pre>
 
                 </section>
 
