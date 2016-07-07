@@ -1,6 +1,9 @@
 from fabric.api import *
 
-env.hosts = ['45.56.75.32']
+#fab command -i /path/to/key.pem [-H [user@]host[:port]]
+#env.key_filename = '/path/to/keyfile.pem'
+
+env.hosts = ['boot']
 env.user  = 'root'
 
 def remote_info():
